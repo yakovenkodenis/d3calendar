@@ -13,6 +13,8 @@ const table = d3.select('#calendar');
 let header = table.append('thead');
 let body = table.append('tbody');
 
+console.log(consts.getMonth(9));
+
 header
     .append('tr')
     .selectAll('td')

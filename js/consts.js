@@ -11,9 +11,7 @@ let monthNames = (function() {
     ];
 
     return {
-        getMonth: n => {
-            return months[n + 1]
-        },
+        getMonth: n => months[n + 1],
 
         dayNames: days
     }
